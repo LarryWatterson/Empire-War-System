@@ -21,8 +21,8 @@ class CImparatorlukSavasi : public singleton<CImparatorlukSavasi>
 			MAP_INDEX = 187,
 		};
 
-		CImparatorlukSavasi() { VerileriTemizle(); };
-		~CImparatorlukSavasi() { VerileriTemizle(); };
+		CImparatorlukSavasi() { };
+		~CImparatorlukSavasi() { };
 
 		void		VerileriTemizle();
 		void		EventBaslat();
